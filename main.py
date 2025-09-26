@@ -27,7 +27,7 @@ repo = UserRepository()
 # --- Endpoints ---
 @app.get("/")
 def read_root():
-    return {"mensaje": "Hola, FastAPI funciona 🚀"}
+    return {"mensaje": "Hola, FastAPI funciona ..."}
 
 @app.post("/login")
 def login(username: str, password: str):
